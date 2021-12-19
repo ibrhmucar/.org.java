@@ -1,0 +1,39 @@
+package Replit;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class twoTimes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 ArrayList<String> list = new ArrayList<>(Arrays.asList("one apple","two orange","four banana","four"));
+		
+		  System.out.println(search(list, "four banana"));	
+		
+		
+	}	
+		public static String search(ArrayList<String> r, String find) {
+
+		String e = "";
+
+			   for (int i=0 ; i<r.size() ; i++){
+			     if(r.get(i).equalsIgnoreCase(find)){
+			          e=r.get(i);
+			          break;
+			     }else if(!r.get(i).equals(find)){
+			          e="search failed"; 
+			          break;
+			     }else {
+			          e="no " +r.get(i) + " in any element";
+			          break;
+			     }
+			   } 
+		
+		return e;
+		
+		
+	}
+
+}

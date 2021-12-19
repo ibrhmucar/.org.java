@@ -1,0 +1,12 @@
+breadcrumb.org.eclipse.jdt.ui.JavaPerspective=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="day33_classObject_contructors.Car"><rhs name\="day33_classObject_contructors.Car"/></lhs><lhs name\="day33_classObject_contructors.Task"><rhs name\="day33_classObject_contructors.Task"/></lhs><lhs name\="day33_classObject_contructors.Student"><rhs name\="day33_classObject_contructors.Student"/></lhs><lhs name\="day33_classObject_contructors.BankAccount"><rhs name\="day33_classObject_contructors.BankAccount"/></lhs><lhs name\="day34_Constructors.Employee"><rhs name\="day34_Constructors.Employee"/></lhs><lhs name\="Week8.Employee"><rhs name\="Week8.Employee"/></lhs><lhs name\="Week8.item"><rhs name\="Week8.item"/></lhs><lhs name\="Week8.TestEnvironment"><rhs name\="Week8.TestEnvironment"/></lhs><lhs name\="Week8.Browser"><rhs name\="Week8.Browser"/></lhs><lhs name\="day36_staticClassMembers.Countable"><rhs name\="day36_staticClassMembers.Countable"/></lhs><lhs name\="day36_staticClassMembers.Dinner"><rhs name\="day36_staticClassMembers.Dinner"/></lhs><lhs name\="day36_staticClassMembers.CalculatorTest"><rhs name\="day36_staticClassMembers.CalculatorTest"/></lhs><lhs name\="day36_staticClassMembers.AllBlocks"><rhs name\="day36_staticClassMembers.AllBlocks"/></lhs><lhs name\="day37_inheritance.GredeActicity"><rhs name\="day37_inheritance.FinalExam"/></lhs><lhs name\="day37_inheritance.FinalExam"><rhs name\="day37_inheritance.FinalExam"/></lhs></history>
+content_assist_number_of_computers=12
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+typefilter_migrated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

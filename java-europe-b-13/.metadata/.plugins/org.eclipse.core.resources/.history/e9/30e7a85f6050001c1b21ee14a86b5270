@@ -1,0 +1,26 @@
+package Week8;
+
+public class Emplyoyee {
+
+	String name, jobtitle;
+	public int ID;
+	public double salary;
+	
+	
+	public Emplyoyee(String name, String jobtitle, int iD, double salary) {
+		
+		this.name = name;
+		this.jobtitle = jobtitle;
+		ID = iD;
+		this.salary = salary;
+	}
+
+	public String toString() {
+		return "Emplyoyee [name=" + name + ", jobtitle=" + jobtitle + ", ID=" + ID + ", salary=" + salary + "]";
+		
+		
+	}
+	
+	
+	
+}

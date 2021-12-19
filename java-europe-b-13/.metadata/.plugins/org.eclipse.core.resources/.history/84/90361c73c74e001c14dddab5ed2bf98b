@@ -1,0 +1,22 @@
+package Replit;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class removeAll {
+
+	public static void main(String[] args) {
+	
+		ArrayList<String> wordList = new ArrayList<String>(Arrays.asList("hi","hey","hi","yo"));	
+		
+		System.out.println(wordList.toString());
+		
+		wordList.remove("hi");
+		System.out.println(wordList.toString());
+		
+		
+		
+		
+	}
+
+}

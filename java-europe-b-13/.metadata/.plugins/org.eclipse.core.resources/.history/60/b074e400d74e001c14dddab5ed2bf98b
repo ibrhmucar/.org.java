@@ -1,0 +1,26 @@
+package Replit;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class IntgerToStringToInteger {
+
+	public static void main(String[] args) {
+		   
+		String [] r1 = {"1","2","3"};
+	    String [] r2 = {" b","a","r"};
+		
+		
+	    System.out.println(Arrays.toString(r1));
+	    
+	    ArrayList<String> last = new ArrayList<>();
+	    
+	    for(String a : r1) {
+	    	
+	    	last.add(a);
+	    }
+		
+		System.out.println(last.toString());
+	}
+
+}

@@ -1,0 +1,32 @@
+package MyWorks;
+
+public class someWorks {
+
+	public static void main(String[] args) {
+		
+		
+	    
+	    Integer I = Integer.parseInt("10");
+        System.out.println(I+10);
+        
+		
+		Integer I2 = Integer.valueOf("123");
+        System.out.println(I2);
+        Integer I4 = Integer.valueOf("1111");
+        System.out.println(I4);
+		
+        
+        Integer a = new Integer (10);
+        System.out.println(a);
+        String c = a.toString();
+        System.out.println(c+10);
+        
+        
+        
+        
+        
+        
+        
+	}
+
+}

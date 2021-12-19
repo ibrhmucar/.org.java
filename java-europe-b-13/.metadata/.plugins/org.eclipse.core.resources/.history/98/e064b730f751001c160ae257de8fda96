@@ -1,0 +1,17 @@
+package day37_inheritance;
+
+public class Result {
+
+	public static void main(String[] args) {
+		
+		
+		FinalExam fin = new FinalExam(20, 4); 
+		
+		
+		
+		
+		
+		
+	}
+
+}

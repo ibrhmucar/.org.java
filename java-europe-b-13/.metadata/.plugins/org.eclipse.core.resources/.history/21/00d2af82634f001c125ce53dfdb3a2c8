@@ -1,0 +1,40 @@
+package Replit;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class twoTimes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 ArrayList<String> list = new ArrayList<>(Arrays.asList("one apple","two orange","four banana","four"));
+		
+		 System.out.println(search(list, "four banana"));	
+		  System.out.println(search(list, "angry"));	
+		  System.out.println(search(list, "one apple"));	
+		//System.out.println(list.get(2).equals("four banana"));
+		
+	}	
+		public static String search(ArrayList<String> r, String find) {
+			
+			String b = "";
+				
+			for (String a : r) {
+					if(a.contains(find)) {
+						b = "found";
+					}else if(!a.contains(find)) {
+						b= "not found";
+					}else {
+						b= "no matter";
+					}
+				}
+
+			   
+		return b;
+		
+		
+		
+	}
+
+}

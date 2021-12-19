@@ -1,0 +1,39 @@
+package week6;
+
+import java.util.Arrays;
+
+import day28_arrays_part5.Question9;
+
+public class A09_AddElementToArray {
+
+	public static void main(String[] args) {
+		
+		int [] students = {1 , 2 , 3 };
+		
+		
+		students = addElement(students, 1);
+		students = addElement(students, 2);
+		
+		System.out.println(Arrays.toString(students));
+		
+	}
+
+	
+		public static int [] addElement(int[] arr, int element) {
+			
+			int [] newArray = new int[arr.length+1]; // yeni array oluşturuyoruz ve diğer array'in length'inden eklemek istediğimiz sayıyı yazıyoruz.
+			
+			int i=0;
+			for (int each : arr) {
+				newArray[i] = each;
+				i++;
+			}
+			    
+			   newArray[i] = element;
+			   
+			   return newArray;
+			
+		}
+ 	
+	
+}

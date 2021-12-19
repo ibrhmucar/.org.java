@@ -1,0 +1,17 @@
+package Replit;
+
+public class IntgerToStringToInteger {
+
+	public static void main(String[] args) {
+		   
+		String [] r1 = {"1","2","3"};
+	    String [] r2 = {" b","a","r"};
+		
+		
+	    System.out.println(r1);
+	    
+		
+		
+	}
+
+}

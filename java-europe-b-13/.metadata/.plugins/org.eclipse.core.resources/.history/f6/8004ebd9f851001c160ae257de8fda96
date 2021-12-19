@@ -1,0 +1,18 @@
+package day37_inheritance;
+
+public class Result {
+
+	public static void main(String[] args) {
+		
+		GredeActicity grad = new GredeActicity();
+		FinalExam fin = new FinalExam(10,2);
+		FinalExam fin2 = new FinalExam(40, 26);
+		
+		System.out.println(fin.getGrade());
+		
+		
+		
+		
+	}
+
+}

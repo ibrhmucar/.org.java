@@ -1,0 +1,29 @@
+package Replit;
+
+import java.util.Arrays;
+
+public class CombineR {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String [] str = {"f","o","o"};
+	    String [] str2 = {" b","a","r"};
+	    
+	    
+	    String [] str3 = new String[str.length+str2.length];
+	    System.out.println(str3.length);
+	    
+	   
+	   
+	    for (int i=0 ; i<str3.length-1 ; i++) {
+	    	
+	    	str3[i]=str[i]+str2[i];
+	    	j++;
+	    }
+		
+		System.out.println(Arrays.toString(str3));
+		
+	}
+
+}

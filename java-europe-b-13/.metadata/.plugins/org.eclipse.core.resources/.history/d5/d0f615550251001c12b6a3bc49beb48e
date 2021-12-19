@@ -1,0 +1,27 @@
+package day36_staticClassMembers;
+
+public class Student {
+	
+	
+	String  name;
+	int age;
+	int idNumber;
+	String School;
+	
+	
+	public Student(String name, int age, int idNumber, String school) {
+		
+		this.name = name;
+		this.age = age;
+		this.idNumber = idNumber;
+		School = school;
+	}
+
+
+	public String toString() {
+		return "Student [name=" + name + ", age=" + age + ", idNumber=" + idNumber + ", School=" + School + "]";
+	}
+	
+	
+
+}

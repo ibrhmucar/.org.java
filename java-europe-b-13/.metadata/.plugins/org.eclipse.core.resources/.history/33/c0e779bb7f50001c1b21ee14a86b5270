@@ -1,0 +1,16 @@
+package Week8;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+		TestEnvironment testOne = new TestEnvironment();
+		
+		testOne.browser = new Browser("Chrome");
+		testOne.os = new OS("Windows");
+		System.out.println("My test environment for testt one is : " + testOne.toString());
+		
+
+	}
+
+}

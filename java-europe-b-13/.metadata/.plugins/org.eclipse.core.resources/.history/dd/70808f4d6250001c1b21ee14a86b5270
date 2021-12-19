@@ -1,0 +1,22 @@
+package Week8;
+
+public class Microsoft {
+
+	public static void main(String[] args) {
+		
+	//	Employee emp1 = new Emplyoyee(null, null, 0, 0);
+		
+		int [] nums = {1,2,3};
+		
+		Employee [] testers = {
+				new Employee("Eyup", "SDET", 10, 100.000),
+				new Employee("Vasilika", "ScrumMaster", 5, 120.000),
+				new Employee("Selena", "QA Eng", 7, 85.000),
+				new Employee("Merve", "Senior_SDET", 8, 150.000)
+		};
+		
+		System.out.println(testers.toString());
+
+	}
+
+}

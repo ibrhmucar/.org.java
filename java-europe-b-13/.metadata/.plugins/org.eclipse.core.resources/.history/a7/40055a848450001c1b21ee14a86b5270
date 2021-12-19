@@ -1,0 +1,44 @@
+package Week8;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+	//	TestEnvironment testOne = new TestEnvironment();
+		
+	//	testOne.browser = new Browser("Chrome");
+	//	testOne.os = new OS("Windows");
+	//	System.out.println("My test environment for test one is : " + testOne.toString());
+		
+	//	TestEnvironment testTwo = new TestEnvironment();
+		
+       
+	//	testTwo.browser = new Browser();
+	//	testTwo.browser.setBrowserType("Safari");
+		
+	//	testTwo.os = new OS();
+	//	testTwo.os.setOs("MacOS");
+		
+	//	System.out.println("My test environment for test two is : " + testTwo.toString());
+		
+		
+		TestEnvironment test = new TestEnvironment();
+		Browser br = new Browser();
+		OS  os1 = new OS();
+		
+	    test.br.setBrowserType("Mozzila");
+	    test.os.setOs("Mac");
+	    System.out.println("My test environment for test one is : " + test.toString());
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

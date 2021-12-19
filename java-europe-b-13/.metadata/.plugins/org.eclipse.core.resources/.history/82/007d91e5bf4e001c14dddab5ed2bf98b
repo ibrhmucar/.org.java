@@ -1,0 +1,57 @@
+package Replit;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class CombineR {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String [] str = {"f","o","o"};
+	    String [] str2 = {" b","a","r"};
+	    
+	    
+	    String [] str3 = new String[str.length+str2.length];
+	    System.out.println(str3.length);
+	    
+	   
+	   
+	    for (int i=0 ; i<str.length ; i++) {
+	    	
+	    	str3[i]=str[i];
+	    
+	    }
+		
+		System.out.println(Arrays.toString(str3));
+		
+		 int j=0;	
+	     for (int i=3 ; i<str3.length ; i++) {
+    	
+    	 str3[i]=str2[j];
+    	 j++;
+	     
+	     }
+    	 
+    	 System.out.println(Arrays.toString(str3));
+    	 
+    	 
+    	 ArrayList<String> last = new ArrayList<>();
+    	 
+    	 for(int i=0 ; i<str3.length ; i++) {
+    		 last.add(str3[i]);
+    		 
+    	 }
+    	 
+    	 System.out.println(last);
+    	 
+    	 
+    	 
+    	 
+    	 
+    	 
+    	 
+    	 
+    	 
+	}	  
+}

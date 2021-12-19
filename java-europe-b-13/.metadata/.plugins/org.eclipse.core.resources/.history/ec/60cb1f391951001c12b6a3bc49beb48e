@@ -1,0 +1,22 @@
+package day36_staticClassMembers;
+
+public class DinnerTest {
+
+	public static void main(String[] args) {
+		
+		int pizzaSliceCount=0 ;
+		
+		Dinner mom = new Dinner();
+		Dinner kid = new Dinner();
+		Dinner dad = new Dinner();
+		
+		System.out.println(mom.pizzaSlice);
+		
+		
+//		pizzaSliceCount = Dinner.pizzaSlice - mom.takeASlice()+dad.takeASlice(2)+kid.takeASlice(1);
+		
+				
+
+	}
+
+}

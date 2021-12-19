@@ -1,0 +1,34 @@
+package Week8;
+
+import java.util.ArrayList;
+
+public class AmazonTest {
+
+	public static void main(String[] args) {
+		
+		ArrayList<item> items = new ArrayList<>();
+		
+		
+		items.add(new item("Sony Vaio i7", 950.0 ,10 ));
+		items.add(new item("Lenove", 800.0, 20));
+		items.add(new item("LG Ultrawide Monitor", 450.0, 13));
+		items.add(new item("Hp Laptop", 750.0, 24));
+
+		
+		double valueOfInventetory = 0;
+		
+		int largestQuantity=0;
+		
+		String nameOfLargest= "";
+		
+		System.out.println(items.toString());
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

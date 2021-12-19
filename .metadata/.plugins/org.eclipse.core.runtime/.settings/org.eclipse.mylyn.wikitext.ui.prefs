@@ -1,0 +1,7 @@
+block-h1=font-size\: 150%; font-weight\: bold; color\: \#569cd6;
+block-h2=font-size\: 160%; font-weight\: bold; color\: \#569cd6;
+block-h3=font-size\: 160%; font-weight\: bold; color\: \#569cd6;
+block-h5=font-size\: 150%; font-weight\: bold; color\: \#569cd6;
+block-h6=font-size\: 120%; font-weight\: bold; color\: \#569cd6;
+eclipse.preferences.version=1
+org.eclipse.mylyn.wikitext.ui.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>

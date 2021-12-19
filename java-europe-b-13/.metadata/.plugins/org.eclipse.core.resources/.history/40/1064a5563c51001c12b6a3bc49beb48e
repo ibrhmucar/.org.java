@@ -1,0 +1,12 @@
+package day36_staticClassMembers;
+
+public class AllBlocksTest {
+
+	public static void main(String[] args) {
+		
+		
+		AllBlocks a1 = new AllBlocks();
+		
+	}
+
+}

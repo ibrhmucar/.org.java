@@ -1,0 +1,14 @@
+package day36_staticClassMembers;
+
+public class ABC {
+	
+	private static void m1() {
+	
+		System.out.println("Hello");
+	}
+	
+	public static void m2() {}
+	
+	   
+
+}

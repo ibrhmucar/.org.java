@@ -1,0 +1,1 @@
+package day38_inheritance_part2;

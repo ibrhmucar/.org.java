@@ -1,0 +1,59 @@
+package Replit;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.*;
+public class twoTimes {
+
+	public static void main(String[] args) {
+	    Scanner in = new Scanner(System.in);
+	    System.out.println("Please Enter Size");
+	    int size = in.nextInt();
+	    System.out.println("Please Enter Find");
+	    String find = in.nextLine();
+	    in.nextLine();
+	    ArrayList<String> list = new ArrayList<>();
+	    for(int i=0; i < size; i++) {
+	      System.out.println("Enter Words");
+	      list.add(in.next());
+	      in.nextLine();
+	    }
+	    System.out.println(search(list, find));
+	  } 
+
+			
+		public static String search(ArrayList<String> r, String find) {
+		    
+			
+			      int index= 0;
+			       boolean sit = false;
+
+			        for(String i : r) {
+			                 if(i.contains(find)) {
+			                     sit = true;
+			                     index = r.indexOf(i);
+			                     break; 
+			                 }
+			         else {
+			                     sit = false;
+			                 }
+			        }
+			        String tot="";
+			        if(sit) {
+			            
+			            tot=r.get(index);
+			            return tot;
+			        }
+			    else
+			             return "search failed";      
+			      }
+			
+			
+			
+			
+			
+			
+			
+	
+
+}
