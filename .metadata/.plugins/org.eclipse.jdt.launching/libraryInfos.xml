@@ -3,4 +3,8 @@
     <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home" version="11.0.12"/>
     <libraryInfo home="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_16.0.1.v20210528-1205" version="16.0.1"/>
     <libraryInfo home="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_16.0.1.v20210528-1205/jre" version="16.0.1"/>
+    <libraryInfo home="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.1.v20211116-1657" version="17.0.1"/>
+    <libraryInfo home="/Users/ibrahimucar/Library/Java/JavaVirtualMachines/temurin-17.0.1/Contents/Home" version="17.0.1"/>
+    <libraryInfo home="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.1.v20211116-1657/jre" version="17.0.1"/>
+    <libraryInfo home="/Users/ibrahimucar/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home" version="17.0.1"/>
 </libraryInfos>

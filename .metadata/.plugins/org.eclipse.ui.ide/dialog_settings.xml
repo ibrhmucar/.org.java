@@ -10,6 +10,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/ibrahimucar/Downloads/JavaB13 3"/>
 			<item value="/Users/ibrahimucar/Desktop/JavaB13/java-europe-b-13"/>
 			<item value="/Users/ibrahimucar/Desktop/JavaB13/java-europe-b-13/src"/>
 			<item value="/Users/ibrahimucar/Desktop/JavaB13/java-europe-b-13/src/Day6"/>
