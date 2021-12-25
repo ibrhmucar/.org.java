@@ -1,1 +1,5 @@
 /School.class
+.idea
+*.iml
+target/
+*.xmi
