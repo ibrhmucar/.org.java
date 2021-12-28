@@ -1,26 +1,27 @@
 package day42_interface;
 
-public class Tesla extends ElectricCar{
-
+public class Tesla extends ElectricCar {
 
     public Tesla(String model, double price, String color) {
         super(model, price, color);
-    }
-
-    @Override
-    public void start() {
-        System.out.println("Tesla is starting quitly...");
-        System.out.println("Change to Drive Mode");
-    }
-
-    @Override
-    public void charge() {
-        System.out.println("Tesla charging - Plugin to Electric outlet...");
 
     }
 
     @Override
-    public void drive() {
+    void start() {
+        System.out.println("tesla is starting");
+        System.out.println("change to drive mode.");
+
+    }
+
+    @Override
+    void charge() {
+        System.out.println("Tesla charging - plugin to electric outlet...");
+
+    }
+
+    @Override
+    void drive() {
         System.out.println("Tesla is driving");
 
     }

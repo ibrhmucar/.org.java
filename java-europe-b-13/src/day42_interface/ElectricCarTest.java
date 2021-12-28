@@ -1,7 +1,10 @@
 package day42_interface;
 
-public class TeslaTest {
+public class ElectricCarTest {
+
     public static void main(String[] args) {
+
+        //ElectricCar ec = new ElectricCar(); ERROR- can not be instantiated
 
         Tesla modelS = new Tesla("Model S", 45000, "White");
         modelS.charge();
