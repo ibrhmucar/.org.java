@@ -1,6 +1,7 @@
 package day30_wrappleClass;
 
 import java.util.Arrays;
+import java.util.function.DoublePredicate;
 
 public class Task96 {
 
@@ -18,7 +19,10 @@ public class Task96 {
 		String degree = arr[0];
 		
 		double degreeF = Double.parseDouble(degree);
-		System.out.println(degreeF);
+		System.out.println("here is " + degreeF);
+		System.out.println(Double.valueOf(degreeF));
+		String newDegree = Double.toString(degreeF);
+		System.out.println(newDegree+1);
 		
 		
 		double degreeC = (degreeF-32)* 5/9;
@@ -28,7 +32,8 @@ public class Task96 {
 		
 		System.out.println(Task97.filterString(str));
 		System.out.println(Task97.filterInt(str));
-		
+
+
 		
 		
 		
