@@ -8,11 +8,11 @@ public abstract class MessagingApp {
     private static int count;
     public static final String APP_TYPE = "Messanger";
 
-    public static int getCount() {
+    public  int getCount() {
         return count;
     }
 
-    public static void setCount(int count) {
+    public  void setCount(int count) {
         MessagingApp.count = count;
     }
 

@@ -17,6 +17,25 @@ public class CallCnter {
         VoiceCallable.decline();
         System.out.println(VoiceCallable.CAN_CALL);
 
+        System.out.println(wa.getCount());
+        wa.setCount(4);
+        System.out.println(wa.getCount());
+
+        System.out.println("=======================");
+
+
+        VoiceCallable obj = new WhatsApp();
+       /* MessagingApp obj2 = (MessagingApp) obj;
+        obj2.launch();*/
+        ((WhatsApp)obj).launch();
+
+        ((MessagingApp)obj).allOSCompatible=false;
+        obj.call("Mr Tom");
+
+        ((WhatsApp)obj).videoCall();
+
+        ((VideoCallable)obj).videoCall();
+
 
     }
 }
