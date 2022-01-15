@@ -20,5 +20,8 @@ public class Dog extends Animal{
         System.out.println("Dog is breathing");
     }
 
-
+    @Override
+    public void sleep() {
+        System.out.println("Dog is sleeping");
+    }
 }

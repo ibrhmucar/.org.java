@@ -19,4 +19,8 @@ public abstract class Bird extends Animal{
 
     public abstract void fly();
 
+    @Override
+    public void sleep() {
+
+    }
 }

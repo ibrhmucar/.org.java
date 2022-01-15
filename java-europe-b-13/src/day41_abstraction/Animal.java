@@ -13,6 +13,8 @@ public abstract class Animal {
 
     public abstract void breath();
 
+    public abstract void sleep();
+
     public void move (){
 
         System.out.println("Moving");
